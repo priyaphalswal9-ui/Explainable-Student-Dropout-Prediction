@@ -1,2 +1,2 @@
-# Ghost-Student-Dropout-Prediction
-Early Behavioral Dropout Risk Forecasting in Online Learning using XGBoost, SHAP Explainability and Streamlit Deployment.
+# Explainable Student Dropout Prediction using XGBoost & SHAP
+### Early Behavioral Risk Detection in Online Learning using Machine Learning and Explainable AI

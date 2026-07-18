@@ -1,6 +1,6 @@
 import streamlit as st
-
 from utils.styles import load_css
+
 from app_pages.home import show_home
 from app_pages.demo_mode import show_demo_mode
 from app_pages.batch_mode import show_batch_mode
@@ -27,9 +27,12 @@ page = st.sidebar.radio(
 
 if page == "Home":
     show_home()
+
 elif page == "Demo Prediction Mode":
     show_demo_mode()
+
 elif page == "Full Feature Prediction Mode":
     show_batch_mode()
+
 elif page == "About Model":
     show_about_model()
